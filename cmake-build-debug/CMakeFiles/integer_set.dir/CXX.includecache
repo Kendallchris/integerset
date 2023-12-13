@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/integerset-Kendallchris/integer_set.cpp
+cassert
+-
+integer_set.h
+/tmp/integerset-Kendallchris/integer_set.h
+
+/tmp/integerset-Kendallchris/integer_set.h
+iostream
+-
+string
+-
+sstream
+-
+
+/tmp/integerset-Kendallchris/test.cpp
+integer_set.h
+/tmp/integerset-Kendallchris/integer_set.h
+iostream
+-
+sstream
+-
+iomanip
+-
+
